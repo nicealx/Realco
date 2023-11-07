@@ -104,7 +104,6 @@ main {
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
   -webkit-transition: all 0.2s;
-  -o-transition: all 0.2s;
   transition: all 0.2s;
   z-index: 1;
 }
@@ -131,7 +130,6 @@ main {
   width: 30px;
   height: 20px;
   -webkit-transition: all 0.5s;
-  -o-transition: all 0.5s;
   transition: all 0.5s;
   visibility: hidden;
   opacity: 0;
@@ -143,7 +141,6 @@ main {
   height: 3px;
   top: 9px;
   -webkit-transition: all 0.1s;
-  -o-transition: all 0.1s;
   transition: all 0.1s;
 }
 .hamburger::after, .hamburger::before {
@@ -153,7 +150,6 @@ main {
   height: 3px;
   background-color: #000;
   -webkit-transition: all 0.5s;
-  -o-transition: all 0.5s;
   transition: all 0.5s;
 }
 .hamburger::after {
@@ -167,7 +163,6 @@ main {
   position: relative;
   top: -41px;
   -webkit-transition: all 0.5s;
-  -o-transition: all 0.5s;
   transition: all 0.5s;
 }
 .header-message {
@@ -186,7 +181,6 @@ main {
   color: #FFFFFF;
   background-color: #939878;
   -webkit-transition: all 0.5s;
-  -o-transition: all 0.5s;
   transition: all 0.5s;
 }
 .header-message__close {
@@ -251,13 +245,11 @@ main {
   visibility: hidden;
   opacity: 0;
   -webkit-transition: all 0.5s;
-  -o-transition: all 0.5s;
   transition: all 0.5s;
 }
 .top-menu__item.has-submenu .top-submenu li {
   padding: 5px 20px;
   -webkit-transition: all 0.5s;
-  -o-transition: all 0.5s;
   transition: all 0.5s;
 }
 .top-menu__item.has-submenu .top-submenu li:hover {
@@ -487,7 +479,7 @@ main {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: 64px -16px 0;
+  margin: 64px 0 0;
 }
 .cards .card {
   display: -webkit-box;
@@ -603,7 +595,7 @@ main {
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: 0 -16px 48px -16px;
+  margin: 0 0 48px 0;
 }
 .announcements .links {
   text-align: center;
@@ -943,6 +935,9 @@ main {
   margin-bottom: 14px;
 }
 .footer-top__subs .search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   margin-bottom: 16px;
 }
 .footer-top__subs .search__input {
@@ -995,4 +990,4 @@ main {
 }
 .footer__social a:not(:last-child) {
   margin-right: 12px;
-}/*# sourceMappingURL=style.css.map */
+}
